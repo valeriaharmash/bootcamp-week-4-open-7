@@ -1,4 +1,6 @@
-const Person = require('./Person')
+const Person = require('./classes/Person')
+const Player = require('./classes/Player')
+const NPC = require('./classes/NPC')
 
 function main() {
 	let person1 = new Person('Bob', 'Cleric')
@@ -9,6 +11,16 @@ function main() {
 	person2.updateX(3)
 	person2.updateY(5)
 	console.log(person2)
+
+	let player = new Player('Bertha', 'Cat', [5, 5], 'Claws')
+
+	console.log(player.name)
+	console.log(player.weapon)
+
+	let npc1 = new NPC('Bella', 'cat', [7, 8])
+
+	console.log(NPC.NPC_COUNT)
+	console.log(NPC.tellTime())
 }
 
 main()
