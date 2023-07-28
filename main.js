@@ -21,6 +21,11 @@ function main() {
 
 	console.log(NPC.NPC_COUNT)
 	console.log(NPC.tellTime())
+
+	person1.drinkPotion(200)
+	console.log('health>>>', person1.getHealth())
+
+	console.log('health>>>', person1.takeDamage(200))
 }
 
 main()
