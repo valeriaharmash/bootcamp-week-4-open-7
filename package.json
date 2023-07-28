@@ -1,0 +1,25 @@
+{
+  "name": "bootcamp-week-4-open-7",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valeriaharmash/bootcamp-week-4-open-7.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valeriaharmash/bootcamp-week-4-open-7/issues"
+  },
+  "homepage": "https://github.com/valeriaharmash/bootcamp-week-4-open-7#readme",
+  "dependencies": {
+    "jest": "^29.6.2"
+  }
+}
